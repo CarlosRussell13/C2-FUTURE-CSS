@@ -1,0 +1,10 @@
+@container style(--sunny: true) {
+    .weather-card {
+      background: linear-gradient(-30deg, yellow, orange);
+    }
+   
+    .weather-card:after {
+      content: url(<data-uri-for-demo-brevity>);
+      background: gold;
+    }
+   }
