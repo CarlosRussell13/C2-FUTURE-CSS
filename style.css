@@ -203,7 +203,7 @@
 		
 		@property --supports-at-property {
 			syntax: "*";
-			initial-value: ;
+			initial-value: 0;
 			inherits: true;
 		}
 		.no-support[data-support="at-property"], [data-no-support="at-property"] {
